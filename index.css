@@ -1,0 +1,27 @@
+.board {
+			width: 800px;
+			height: 800px;
+            border: 6px solid black;
+			display: inline-block;
+			
+         
+		}
+		
+.square {
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+			margin: -2px;
+		}
+
+.square.black {
+			background-color: #555;
+			color: #fff;
+			display: inline-block;
+		}
+		
+.square.white {
+			background-color: #fff;
+			color: #333;
+			display: inline-block;
+		}
